@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    color: white;
+    background: blueviolet;
+    
+    
+}
+h3{
+    font-size: 40px;
+    margin-bottom : 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#guest_screen,#home_screen{
+    background: black;
+    height: 100px;
+    width: 120px;
+    border: black solid 3px;
+    padding: auto auto auto auto;
+    text-align: center;
+    font-size: 50px;
+    margin: 10px auto 15px auto;
+    
+}
+
+#score-addon{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border : white solid 1px;
+    border-radius: 4px;
+    padding: 5px 7px 5px 7px;
+    background: blueviolet;
+}
