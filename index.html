@@ -1,31 +1,35 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div>
-                <h3>HOME</h3>
-                <p id="home_screen">0</p>
-                <div id="score-addon">
-                    <button  onclick="hplus_one()">+1</button>
-                    <button  onclick="hplus_two()">+2</button>
-                    <button  onclick="hplus_three()">+3</button>
-                </div>
 
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <p id="home_screen">0</p>
+            <div id="score-addon">
+                <button onclick="hplus_one()">+1</button>
+                <button onclick="hplus_two()">+2</button>
+                <button onclick="hplus_three()">+3</button>
             </div>
-            
-            
-            <div>
-                <h3>GUEST</h3>
-                <p id="guest_screen">0</p>
-                <div id="score-addon">
-                    <button onclick="gplus_one()">+1</button>
-                    <button onclick="gplus_two()">+2</button>
-                    <button onclick="gplus_three()">+3</button>
-                </div>
+
+        </div>
+
+
+        <div>
+            <h3>AWAY</h3>
+            <p id="guest_screen">0</p>
+            <div id="score-addon">
+                <button onclick="gplus_one()">+1</button>
+                <button onclick="gplus_two()">+2</button>
+                <button onclick="gplus_three()">+3</button>
             </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
